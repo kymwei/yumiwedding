@@ -1,0 +1,26 @@
+{
+  "name": "yuyu",
+  "version": "1.0.0",
+  "description": "stupid wedding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "http-server -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kymwei/yumiwedding.git"
+  },
+  "keywords": [
+    "wedding"
+  ],
+  "author": "Kymwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kymwei/yumiwedding/issues"
+  },
+  "homepage": "https://github.com/kymwei/yumiwedding#readme",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  }
+}
