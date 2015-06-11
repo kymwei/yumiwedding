@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "http-server -p 8000"
+    "start": "http-server -p 8000"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kymwei/yumiwedding#readme",
   "dependencies": {
+    "bower": "^1.4.1",
     "http-server": "^0.8.0"
   }
 }
