@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yumi & Ronald Wedding</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eternity - Responsive Wedding Template</title>
+    <meta name="description" content="stupid wedding" />
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" href="css/ie8.css" />
+      <script src="js/vendor/custom.modernizr.js"></script> 
+  <![endif]-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic">
+    <link rel="stylesheet" href="src/style/normalize.min.css">
+    <link rel="stylesheet" href="src/style/foundation.min.css">
+    <link rel="stylesheet" href="src/style/flexslider.css">
+    <link rel="stylesheet" href="src/style/style.css?v1.5">
+    <link rel="stylesheet" href="src/style/media-queries.css?v1.5">
+    <!-- Icons Font Are Awesome -->
+    <link rel="stylesheet" href="src/style/font-awesome.min.css">
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="src/img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="src/img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="src/img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="src/img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="src/img/favicon.ico">
+    <script src="src/lib/angular/angular.min.js"></script>
+    <script src="src/lib/angular-route/angular-route.min.js"></script>
+    <script src="src/lib/jquery/dist/jquery.min.js"></script>
+    <script src="src/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body ng-app="single-page-app">
+    <div>
+        <!-- START Navigation for mobile devices -->
+        <nav ng-controller="cfgController" role="navigation" class="top-bar show-for-large-down nav">
+            <ul class="title-area">
+                <li class="name">Navigate to...</li>
+                <li class="toggle-topbar menu-icon">
+                    <a href="#/"><span></span>
+              </a>
+                </li>
+            </ul>
+            <section class="top-bar-section" ng-controller="cfgController" role="navigation">
+                <ul>
+                    <li>
+                        <a href="#/"><i class="fa fa-arrow-up"></i>
+                  </a>
+                    </li>
+                    <li>
+                        <a href="#section-1">Our Story</a>
+                    </li>
+                    <li>
+                        <a href="#section-2">Photos</a>
+                    </li>
+                    <li>
+                        <a href="#section-3">Groomsmen</a>
+                    </li>
+                    <li>
+                        <a href="#section-4">Bridesmaids</a>
+                    </li>
+                    <li>
+                        <a href="http://www.honeyfund.com/wedding/yumi_ronald_2015">Registry</a>
+                    </li>
+                    <li>
+                        <a href="#/RSVP">Rsvp</a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+        <!-- END Navigation for mobile devices -->
+        <div class="row collapse">
+            <aside class="large-3 columns hide-for-medium-down">
+                <div class="side-nav-container nav">
+                    <div class="shadow"></div>
+                    <h1 class="logo">
+                  <a href="#section-0">Y + R</a>
+              </h1>
+                    <nav class="hide-for-large-down">
+                        <ul class="side-nav primary-nav">
+                            <li>
+                                <a href="#section-1">Our Story</a>
+                            </li>
+                            <li>
+                                <a href="#section-2">Photos</a>
+                            </li>
+                            <li>
+                                <a href="#section-3">Groomsmen</a>
+                            </li>
+                            <li>
+                                <a href="#section-4">Bridesmaids</a>
+                            </li>
+                            <li>
+                                <a href="http://www.honeyfund.com/wedding/yumi_ronald_2015">Registry</a>
+                            </li>
+                            <li>
+                                <a href="#RSVP">Rsvp</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <span class="ribbon"></span>
+                </div>
+                <!-- END .nav-container .shadow -->
+            </aside>
+            <div ng-view class="jumbotron"></div>
+        </div>
+    </div>
+</body>
+
+</html>

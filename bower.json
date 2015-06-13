@@ -1,0 +1,35 @@
+{
+  "name": "yumiwedding",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kymwei/yumiwedding",
+  "authors": [
+    "kymwei <kymwei1002@gmail.com>"
+  ],
+  "description": "somthing stupid site",
+  "main": "app",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "stupid",
+    "wedding"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.4",
+    "bootstrap-sass-official": "~3.3.4",
+    "fontawesome": "~4.3.0"
+  }
+}
