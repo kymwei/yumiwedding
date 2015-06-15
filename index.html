@@ -34,7 +34,7 @@
     <script src="script.js"></script>
 </head>
 
-<body ng-app="single-page-app">
+<body ng-app="yuyu-wedding">
     <div>
         <!-- START Navigation for mobile devices -->
         <nav ng-controller="cfgController" role="navigation" class="top-bar show-for-large-down nav">
@@ -48,23 +48,22 @@
             <section class="top-bar-section" ng-controller="cfgController" role="navigation">
                 <ul>
                     <li>
-                        <a href="#/"><i class="fa fa-arrow-up"></i>
-                  </a>
+                        <a href="#/story">Our Story</a>
                     </li>
                     <li>
-                        <a href="#section-1">Our Story</a>
+                        <a href="#/photo">Photos</a>
                     </li>
                     <li>
-                        <a href="#section-2">Photos</a>
+                        <a href="#/party">Party</a>
                     </li>
                     <li>
-                        <a href="#section-3">Groomsmen</a>
+                        <a href="#/travel">Travel</a>
                     </li>
                     <li>
-                        <a href="#section-4">Bridesmaids</a>
+                        <a href="#/accommodation">Accommodation</a>
                     </li>
                     <li>
-                        <a href="http://www.honeyfund.com/wedding/yumi_ronald_2015">Registry</a>
+                        <a target="_blank" href="http://www.honeyfund.com/wedding/yumi_ronald_2015">Registry</a>
                     </li>
                     <li>
                         <a href="#/RSVP">Rsvp</a>
@@ -78,27 +77,30 @@
                 <div class="side-nav-container nav">
                     <div class="shadow"></div>
                     <h1 class="logo">
-                  <a href="#section-0">Y + R</a>
+                  <a href="#/">Y + R</a>
               </h1>
                     <nav class="hide-for-large-down">
                         <ul class="side-nav primary-nav">
                             <li>
-                                <a href="#section-1">Our Story</a>
+                                <a href="#/story">Our Story</a>
                             </li>
                             <li>
-                                <a href="#section-2">Photos</a>
+                                <a href="#/photo">Photos</a>
                             </li>
                             <li>
-                                <a href="#section-3">Groomsmen</a>
+                                <a href="#/party">Party</a>
                             </li>
                             <li>
-                                <a href="#section-4">Bridesmaids</a>
+                                <a href="#/travel">Travel</a>
                             </li>
                             <li>
-                                <a href="http://www.honeyfund.com/wedding/yumi_ronald_2015">Registry</a>
+                                <a href="#/accommodation">Accommodation</a>
                             </li>
                             <li>
-                                <a href="#RSVP">Rsvp</a>
+                                <a target="_blank" href="http://www.honeyfund.com/wedding/yumi_ronald_2015">Registry</a>
+                            </li>
+                            <li>
+                                <a href="#/RSVP">Rsvp</a>
                             </li>
                         </ul>
                     </nav>
@@ -110,5 +112,16 @@
         </div>
     </div>
 </body>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="src/js/foundation.min.js"></script>
+<script src="src/js/foundation.abide.js"></script>
+<script src="src/js/jquery.backstretch.min.js"></script>
+<script src="src/js/jquery.scrollTo-1.4.3-min.js"></script>
+<script src="src/js/jquery.nav.min.js"></script>
+<script src="src/js/jquery.flexslider.js"></script>
+<script src="src/js/custom.js"></script>
+<script>
+$(document).foundation();
+</script>
 
 </html>

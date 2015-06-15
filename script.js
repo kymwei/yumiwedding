@@ -1,30 +1,56 @@
-var app = angular.module('single-page-app', ['ngRoute']);
+var app = angular.module('yuyu-wedding', ['ngRoute']);
 
 
-app.config(function ($routeProvider) {
+app.config(function($routeProvider) {
 
 
     $routeProvider
         .when('/', {
             templateUrl: 'home.html'
         })
+        .when('/story', {
+            templateUrl: 'story.html'
+        })
+        .when('/photo', {
+            templateUrl: 'photo.html'
+        })
         .when('/RSVP', {
             templateUrl: 'rsvp.html'
+        })
+        .when('/party', {
+            templateUrl: 'party.html'
+        })
+        .when('/travel', {
+            templateUrl: 'travel.html'
         })
         .when('/', {
             templateUrl: 'home.html'
         })
-        .when('/about', {
-            templateUrl: 'about.html'
+        .when('/accommodation', {
+            templateUrl: 'accommodation.html'
         });
 
 
 });
 
 
-app.controller('cfgController', function ($scope) {
+app.controller('cfgController', function($scope) {
+    $scope.message = "Hello world";
 
+}).controller('photoController', function($scope) {
+    //$(document).foundation()
     $scope.message = "Hello world";
 
 });
 
+
+app.directive('photoDirevtive', function() {
+    return {
+        restrict: 'A',
+        link: function(scope, elem, attrs) {
+            debugger
+            $(elem).foundation();
+
+        }
+    };
+});
